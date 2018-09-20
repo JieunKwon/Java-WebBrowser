@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane id="AnchorPane" fx:id="mainPane" prefHeight="600.0" prefWidth="800.0" stylesheets="@app.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jieun.MainBrowserController">
+    <children>
+      <Button layoutX="721.0" layoutY="15.0" onAction="#handleButtonGoAction" text="Go" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0" />
+      <Button fx:id="buttonPrev" mnemonicParsing="false" onAction="#handleButtonBackAction" text="&lt;" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0" />
+      <Button fx:id="buttonNext" layoutX="52.0" layoutY="2.0" mnemonicParsing="false" onAction="#handleButtonNextAction" text="&gt;" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="15.0" />
+      <TextField fx:id="textUrl" layoutX="141.0" onAction="#handleButtonGoAction" prefHeight="25.0" prefWidth="599.0" AnchorPane.leftAnchor="141.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="15.0" />
+      <WebView fx:id="webviewMain" opacity="0.5" prefHeight="525.0" prefWidth="760.0" stylesheets="@app.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="55.0" />
+      <ProgressBar fx:id="pgBar" layoutX="81.0" layoutY="18.0" opacity="0.5" prefHeight="18.0" prefWidth="52.0" progress="0.0" AnchorPane.leftAnchor="82.0" AnchorPane.topAnchor="18.0" />
+    </children>
+</AnchorPane>
