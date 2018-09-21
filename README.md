@@ -13,9 +13,12 @@ Functionality
 -------------------------
 
 The layout should be dynamically stretched or shrunk whenever the window is resized. 
-The progress bar for presenting the loading process.
-Move to previous page or next page.
+The progress bar presents the loading process.
+User can move to the previous page or the next page by clicking buttons.
 
+
+Program Feature
+--------------------
 
 ![TestImage](./capture1.png)
 
