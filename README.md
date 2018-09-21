@@ -17,7 +17,7 @@ The progress bar presents the loading process.
 User can move to the previous page or the next page by clicking buttons.
 
 
-Program Feature
+Program Features
 --------------------
 
 ![TestImage](./capture1.png)
